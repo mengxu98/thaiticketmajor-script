@@ -1,11 +1,26 @@
-# Reseving Concert Automation
-Concerts from Thaiticketmajor
+# Thai Concert Ticket Automation
 
+An automation tool for booking concert tickets on Thaiticketmajor website.
+
+## Features
+
+- Automatic login to Thaiticketmajor account
+- Automated concert session selection
+- Smart seating zone selection
+- Automatic adjacent seat selection
+- Automated order confirmation
+- Support for multiple ticket bookings
+
+## Prerequisites
+
+- Python 3.6+
+- Chrome browser
+- Chrome WebDriver
+- Stable internet connection
 
 ## Installation
-* [Python 3](https://www.python.org/downloads/) 
 
-* pip
+1. Install Python 3
 ```bash
     python get-pip.py
 ```
@@ -17,7 +32,7 @@ Concerts from Thaiticketmajor
 
 ## Usage
 ```bash
-    python reserve.py
+    python py/book_tickets.py
 ```
     
 
