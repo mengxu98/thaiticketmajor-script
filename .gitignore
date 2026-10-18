@@ -1,2 +1,9 @@
-
 .DS_Store
+
+# Local credentials — never commit
+userdetail.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
