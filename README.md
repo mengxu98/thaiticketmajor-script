@@ -3,17 +3,20 @@
 > [!IMPORTANT]
 > Now, Thaiticketmajor website has been updated and added some security features.
 > This `Python` script is no longer working when login (deleted usage of `Python` script).
-> This `JavaScript` script is still working (just used for select seat).
+> JavaScript is tested offline; live-site compatibility is unverified.
 
 This repository contains an automation `Python` script and `JavaScript` script for booking concert tickets on Thaiticketmajor website.
 
 ## Usage
 
-1. Open the `Thaiticketmajor` website.
-2. Refer to the image below, enter the zone you want to book.
-3. Copy the `js/4.select-seats.js` to the `Thaiticketmajor` website (F12 -> Console).
-4. Enter the number of seats you want to book (now, only support 1 seat because the limit of the website).
-5. `Enter` to select the seats automatically.
+1. Log in to `Thaiticketmajor` and open the seat-selection page for your zone (see below).
+2. Clear any selected seats and close any dialogs.
+3. Set `requiredSeats` in `js/4.select-seats.js` before running (default: 1).
+4. Paste the script into the browser's developer console.
+5. Press Enter to select seats and click the confirmation button automatically.
+
+Stop with `ttmSeatSelector.stop()`; selected seats remain selected.
+
 ![usage](/img/seat.png)
 
 ## Acknowledgement
